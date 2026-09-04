@@ -84,3 +84,16 @@ site:
           draft: true
           content:
             directory: ./planejamento-da-solucao-6/landing-page
+    - type: section
+      key: section-7
+      title: "🎨 Design UX/UI "
+      path: design-ux-ui
+      children:
+        - type: space
+          key: space-7
+          title: Product Docs
+          path: product-docs
+          default: true
+          draft: true
+          content:
+            directory: ./design-ux-ui/product-docs
