@@ -70,3 +70,16 @@ site:
           default: true
           content:
             directory: ./help-center
+    - type: section
+      key: section-6
+      title: 💡 Planejamento da Solução 6
+      path: planejamento-da-solucao-6
+      children:
+        - type: space
+          key: space-6
+          title: Landing Page
+          path: landing-page
+          default: true
+          draft: true
+          content:
+            directory: ./planejamento-da-solucao-6/landing-page
