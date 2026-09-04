@@ -123,3 +123,16 @@ site:
           draft: true
           content:
             directory: ./gestao-do-projeto/product-docs
+    - type: section
+      key: section-10
+      title: ✅ Qualidade
+      path: qualidade
+      children:
+        - type: space
+          key: space-10
+          title: Product Docs
+          path: product-docs
+          default: true
+          draft: true
+          content:
+            directory: ./qualidade/product-docs
