@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Developer Platform](README.md)
+* [SOBRE](README.md)
