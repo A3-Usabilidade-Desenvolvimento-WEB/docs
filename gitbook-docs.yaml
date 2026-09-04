@@ -90,7 +90,6 @@ site:
           title: Product Docs
           path: product-docs
           default: true
-          draft: true
           content:
             directory: ./qualidade/product-docs
     - type: section
@@ -103,6 +102,5 @@ site:
           title: Landing Page
           path: landing-page
           default: true
-          draft: true
           content:
             directory: ./entregas/landing-page
