@@ -42,7 +42,6 @@ site:
           title: Landing Page
           path: landing-page
           default: true
-          draft: true
           content:
             directory: ./planejamento-da-solucao-6/landing-page
     - type: section
