@@ -110,3 +110,16 @@ site:
           draft: true
           content:
             directory: ./desenvolvimento/product-docs
+    - type: section
+      key: section-9
+      title: 📊 Gestão do Projeto
+      path: gestao-do-projeto
+      children:
+        - type: space
+          key: space-9
+          title: Product Docs
+          path: product-docs
+          default: true
+          draft: true
+          content:
+            directory: ./gestao-do-projeto/product-docs
