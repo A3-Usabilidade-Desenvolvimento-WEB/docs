@@ -72,8 +72,9 @@ site:
             directory: ./help-center
     - type: section
       key: section-6
-      title: 💡 Planejamento da Solução 6
+      title: 💡 Planejamento da Solução
       path: planejamento-da-solucao-6
+      description: ""
       children:
         - type: space
           key: space-6
