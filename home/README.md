@@ -32,7 +32,7 @@ layout:
 
 O ComprasFit nasceu para solucionar um problema enfrentado diariamente por estudantes, atletas amadores e pessoas que moram sozinhas: planejar a alimentação balanceada sem estourar o orçamento e sem desperdiçar comida.
 
-Hoje, esse processo é altamente analógico (com 46,86% dos consumidores ainda utilizando papel e caneta para planejar compras) \[55 (from previous research), 69]. Como consequência direta da falta de planejamento sistemático, as famílias estouram o caixa com frequência e itens perecíveis estragam rapidamente na despensa.
+Hoje, esse processo é altamente analógico (com 46,86% dos consumidores ainda utilizando papel e caneta para planejar compras). Como consequência direta da falta de planejamento sistemático, as famílias estouram o caixa com frequência e itens perecíveis estragam rapidamente na despensa.
 
 Como o ComprasFit resolve isso?Nossa proposta de desenvolvimento foca em uma experiência fluida baseada em 4 entradas simples do usuário:
 
@@ -87,5 +87,7 @@ Yasmin Teles Vales;\
 Ronie Soares Azevedo;\
 Lucas Henrique Louzada;\
 Davi Henrique Mota Silva
+
+
 
 _Este GitBook é atualizado de forma contínua pelo grupo de trabalho e serve como o repositório central da nossa jornada de engenharia de software. Navegue pelo menu lateral para explorar as seções do projeto!_ 🚀
