@@ -1,3 +1,3 @@
 # Table of contents
 
-* [SOBRE](README.md)
+* [🏠 Bem-vindo ao ComprasFit](README.md)
