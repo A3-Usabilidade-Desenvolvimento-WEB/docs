@@ -93,6 +93,7 @@ site:
           title: Product Docs
           path: product-docs
           default: true
+          hidden: true
           content:
             directory: ./qualidade/product-docs
     - type: section
