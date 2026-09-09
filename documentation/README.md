@@ -35,5 +35,4 @@ Sensibilidade ao Preço e Insegurança Alimentar
 
 ***
 
-<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th><th data-type="content-ref"></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td><h4>For builders</h4></td><td><a href="/broken/pages/416edc1381c20849bc41111b02e482a722a49b94">Broken link</a></td><td><a href="/broken/pages/c3101d8e098a6f696c75f6bda47d0ea5fdade1e5">Broken link</a></td><td><a href="/broken/pages/56a52747d54863f8df67ff3ce908938888c69b66">Broken link</a></td></tr><tr><td><h4>For admins</h4></td><td><a href="/broken/pages/fb922e107b31a3e9e9fcf81410029e993b0a9afc">Broken link</a></td><td><a href="/broken/pages/65332f63d0b6cedd6ac718136ba8d89ec6cc1a4d">Broken link</a></td><td><a href="/broken/pages/8d7897a648fcd91cdfe61c6055c3fc9a2774e089">Broken link</a></td></tr><tr><td><h4>For developers</h4></td><td><a href="/broken/pages/d9d593aeabc52a165190bf8c93720491a4eb9682">Broken link</a></td><td><a href="/broken/pages/6625e4a7113b37994c505597f0f9e2c62008a5c5">Broken link</a></td><td><a href="/broken/pages/65332f63d0b6cedd6ac718136ba8d89ec6cc1a4d">Broken link</a></td></tr></tbody></table>
-
+<figure><img src=".gitbook/assets/Designer.png" alt=""><figcaption></figcaption></figure>
