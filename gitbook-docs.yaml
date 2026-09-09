@@ -81,6 +81,7 @@ site:
           title: Product Docs
           path: product-docs
           default: true
+          hidden: true
           content:
             directory: ./gestao-do-projeto/product-docs
     - type: section
@@ -106,5 +107,6 @@ site:
           title: Landing Page
           path: landing-page
           default: true
+          hidden: true
           content:
             directory: ./entregas/landing-page
