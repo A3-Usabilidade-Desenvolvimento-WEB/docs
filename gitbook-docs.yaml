@@ -55,6 +55,7 @@ site:
           title: Product Docs
           path: product-docs
           default: true
+          hidden: true
           content:
             directory: ./design-ux-ui/product-docs
     - type: section
@@ -67,6 +68,7 @@ site:
           title: Product Docs
           path: product-docs
           default: true
+          hidden: true
           content:
             directory: ./desenvolvimento/product-docs
     - type: section
