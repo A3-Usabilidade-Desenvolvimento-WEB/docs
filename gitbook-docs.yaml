@@ -107,6 +107,5 @@ site:
           title: Landing Page
           path: landing-page
           default: true
-          hidden: true
           content:
             directory: ./entregas/landing-page
