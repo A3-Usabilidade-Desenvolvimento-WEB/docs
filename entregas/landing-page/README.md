@@ -43,3 +43,9 @@ layout:
 <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+### REPOSITÓRIOS&#x20;
+
+Back: [https://github.com/A3-Usabilidade-Desenvolvimento-WEB/backend-ComprasFit](https://github.com/A3-Usabilidade-Desenvolvimento-WEB/backend-ComprasFit)
+
+Front: [https://github.com/A3-Usabilidade-Desenvolvimento-WEB/frontend-ComprasFit](https://github.com/A3-Usabilidade-Desenvolvimento-WEB/frontend-ComprasFit)
