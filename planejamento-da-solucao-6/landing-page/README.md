@@ -1,5 +1,4 @@
 ---
-description: Welcome to your team’s developer platform
 icon: house
 layout:
   width: wide
@@ -19,258 +18,331 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: false
 ---
 
-# Developer Platform
+# Planejamento da Solução
 
-<button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Ask a question...</button>
+<h2 align="center"> Diagrama de arquitetura</h2>
 
-<button type="button" class="button secondary" data-action="ask" data-query="How do I get started?" data-icon="rocket-launch">Get started</button><button type="button" class="button secondary" data-action="ask" data-query="How do I authenticate with the developer platform?" data-icon="key">Authenticate</button><button type="button" class="button secondary" data-action="ask" data-query="How do I integrate with my stack?" data-icon="code">Integrate</button><button type="button" class="button secondary" data-action="ask" data-query="How do I contribute?" data-icon="code-pull-request">Contribute</button>
+<h2 align="center"> Arquitetura e Stack Tecnológica</h2>
 
-&#x20;
+<p align="center"> Proposta técnica para o MVP acadêmico </p>
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><h4><i class="fa-leaf" style="color:$primary;">:leaf:</i></h4></td><td><strong>No code</strong></td><td>Get started with the developer platform in 5 minutes.</td><td><a href="https://app.gitbook.com/o/DaDQkGCM7r2TghFSBFLQ/s/yE16Xb3IemPxJWydtPOj/">Documentation</a></td><td><a href=".gitbook/assets/no-code.jpg">no-code.jpg</a></td></tr><tr><td><h4><i class="fa-server" style="color:$primary;">:server:</i></h4></td><td><strong>Hosted</strong></td><td>Learn more about hosting the developer platform.</td><td><a href="https://app.gitbook.com/o/DaDQkGCM7r2TghFSBFLQ/s/yE16Xb3IemPxJWydtPOj/">Documentation</a></td><td><a href=".gitbook/assets/hosted.jpg">hosted.jpg</a></td></tr><tr><td><h4><i class="fa-terminal" style="color:$primary;">:terminal:</i></h4></td><td><strong>API reference</strong></td><td>Browse, test, and implement APIs.</td><td><a href="https://app.gitbook.com/o/DaDQkGCM7r2TghFSBFLQ/s/M9ty6FYa3j98VSBHF9LN/">API Reference</a></td><td><a href=".gitbook/assets/api-reference.jpg">api-reference.jpg</a></td></tr></tbody></table>
+<p align="center"></p>
 
-&#x20;
+O ComprasFit será desenvolvido como uma aplicação web full-stack responsiva, utilizando Next.js e TypeScript como tecnologias principais. A proposta prioriza uma arquitetura simples, moderna e adequada ao desenvolvimento assistido por IA, mantendo frontend, backend e regras de negócio em um único projeto.&#x20;
 
-&#x20;
+### 1. Visão Geral da Arquitetura&#x20;
 
-{% columns %}
-{% column width="50%" %}
-## Get started in minutes
+A escolha de uma arquitetura full-stack em Next.js reduz a quantidade de tecnologias diferentes que a equipe precisa manter e facilita o desenvolvimento colaborativo. A interface, as APIs e as regras de negócio ficam no mesmo repositório, enquanto o banco de dados e o serviço de inteligência artificial são acessados pelo servidor.&#x20;
 
-Make your first API call in under 5 minutes.
-
-This quickstart walks through the basic setup: create an account, generate an API key, and send a test request. The examples use the same request in several languages, so you can start with the one that matches your stack.
-
-{% hint style="info" icon="sparkle" %}
-**Customize your first request**
-
-Explain what you're building and let AI tweak your quickstart.
-
-<button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">What are you building?</button>
-{% endhint %}
-
-{% hint style="warning" icon="life-ring" %}
-**Need some help?**
-
-Troubleshoot common issues or ask for help.
-
-<details>
-
-<summary>I get a 401 Unauthorized error</summary>
-
-Check that your API key is present and valid.
-
-Make sure you replaced `YOUR_API_KEY` in the example.
-
-Confirm the `Authorization` header uses `Bearer YOUR_API_KEY`.
-
-</details>
-
-<details>
-
-<summary>I get a 400 Bad Request error</summary>
-
-Check your request body first.
-
-Make sure the JSON is valid and the `message` field is included.
-
-Also confirm you send `Content-Type: application/json`.
-
-</details>
-
-<details>
-
-<summary>The request succeeds, but the result is not what I expect</summary>
-
-Start with the sample payload before testing custom input.
-
-Check the response `status` field to confirm whether the request was only queued.
-
-If you change the payload shape, verify the endpoint accepts those fields.
-
-</details>
-
-<details>
-
-<summary>My local example does not run</summary>
-
-Check that your runtime and dependencies are installed.
-
-For JavaScript, install the SDK before running the example.
-
-For Python, make sure `requests` is available in your environment.
-
-</details>
-
-<button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Explain what's happening...</button>
-{% endhint %}
-
-With your first request done, use the guides for deeper setup and the API reference for endpoints and parameters.
-
-<a href="https://app.gitbook.com/s/yE16Xb3IemPxJWydtPOj/getting-started" class="button primary" data-icon="rocket-launch">Get started</a> <a href="https://app.gitbook.com/o/DaDQkGCM7r2TghFSBFLQ/s/M9ty6FYa3j98VSBHF9LN/" class="button secondary" data-icon="terminal">API reference</a>
+USUÁRIO (Computador / Smartphone) \
+&#x20;             \| \
+&#x20;             v \
+NEXT.JS - React + TypeScript + Tailwind CSS \
+&#x20;             \| \
+&#x20;             v \
+CAMADA DE SERVIDOR \
+Server Actions / Route Handlers \
+Validação + Regras + Cálculos + Planejamento \
+&#x20;         \|                 | \
+&#x20;         v                 v \
+PostgreSQL / Supabase    API de LLM \
+Prisma ORM               Sugestões culinárias
 
 &#x20;
 
-&#x20;
-{% endcolumn %}
+### &#x20;2. Stack Tecnológica&#x20;
 
-{% column width="50%" %}
-{% stepper %}
-{% step %}
-#### Create your API key
+| Área            | Tecnologia                       | Finalidade                             |
+| --------------- | -------------------------------- | -------------------------------------- |
+| Framework       | Next.js                          | Aplicação full-stack                   |
+| Linguagem       | TypeScript                       | Frontend, backend e regras de negócio  |
+| Interface       | React                            | Construção da interface                |
+| Estilização     | Tailwind CSS                     | Responsividade e estilização           |
+| Componentes     | shadcn/ui                        | Componentes reutilizáveis              |
+| Ícones          | Lucide React                     | Ícones da interface                    |
+| Formulários     | React Hook Form                  | Gerenciamento de formulários           |
+| Validação       | Zod                              | Validação e tipagem de entradas        |
+| Backend         | Server Actions / Route Handlers  | Operações de servidor e APIs           |
+| Banco           | PostgreSQL                       | Persistência dos dados                 |
+| Banco em nuvem  | Supabase                         | PostgreSQL compartilhado pela equipe   |
+| ORM             | Prisma                           | Acesso tipado ao banco                 |
+| IA              | API de LLM                       | Sugestões culinárias e preparo         |
+| Testes          | Vitest                           | Testes das regras críticas             |
+| Deploy          | Vercel                           | Publicação da aplicação                |
+| Versionamento   | Git + GitHub                     | Colaboração e histórico                |
+| Documentação    | GitBook                          | Documentação acadêmica e técnica       |
 
-Set up your account, then generate an API key for local testing and your first integration.
+### &#x20;3. Frontend&#x20;
 
-<a href="http://app.gitbook.com/join" class="button primary">Sign up</a><a href="http://app.gitbook.com/join" class="button secondary">Log in</a>
-{% endstep %}
+Next.js + React + TypeScript&#x20;
 
-{% step %}
-#### Make your first request
+A interface será construída com React através do Next.js, utilizando o App Router. As principais telas previstas são: página inicial, dashboard, novo planejamento, resultado do planejamento, lista de compras, refeições, controle de validade e histórico.&#x20;
 
-Pick a language below, replace `YOUR_API_KEY`, and run.
+src/app/ \
+├── page.tsx \
+├── dashboard/page.tsx \
+├── planejamento/ \
+│   ├── page.tsx \
+│   └── novo/page.tsx \
+├── compras/page.tsx \
+├── refeicoes/page.tsx \
+└── validade/page.tsx&#x20;
 
-{% tabs %}
-{% tab title="JavaScript" %}
-{% code overflow="wrap" %}
-```javascript
-// Import the SDK
-import ExampleAPI from "example-api";
+### 4. Interface e Design&#x20;
 
-// Initialize the client
-const client = new ExampleAPI({ apiKey: "YOUR_API_KEY" });
+Tailwind CSS: Será utilizado para estilização e responsividade, com abordagem mobile-first.&#x20;
 
-// Send your first message
-const response = await client.messages.send({
-  message: "Hello, world!"
-});
-```
-{% endcode %}
-{% endtab %}
+shadcn/ui: Fornecerá componentes como Button, Card, Dialog, Input, Select, Checkbox, Progress, Tabs, Table, Badge, Alert, Toast e Skeleton.&#x20;
 
-{% tab title="Python" %}
-{% code overflow="wrap" %}
-```python
-import requests
+Lucide React: Será utilizado para ícones como carrinho, carteira, calendário, refeições, alertas e confirmações.&#x20;
 
-response = requests.post(
-    "https://api.example.com/messages",
-    headers={
-        "Authorization": "Bearer YOUR_API_KEY",
-        "Content-Type": "application/json",
-    },
-    json={
-        "message": "Hello, world!"
-    },
-)
+### 5. Responsividade&#x20;
 
-print(response.json())
-```
-{% endcode %}
-{% endtab %}
+A aplicação seguirá o conceito mobile-first. Em casa, o usuário poderá planejar as compras no computador ou celular; no supermercado, poderá consultar e marcar itens diretamente pelo celular.&#x20;
 
-{% tab title="cURL" %}
-{% code overflow="wrap" %}
-```bash
-curl -X POST https://api.example.com/messages \
-  -H "Authorization: Bearer YOUR_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "message": "Hello, world!"
-  }'
-```
-{% endcode %}
-{% endtab %}
+### 6. Backend&#x20;
 
-{% tab title="Go" %}
-{% code overflow="wrap" expandable="true" %}
-```go
-package main
+O próprio Next.js será utilizado como backend, evitando um projeto separado em Python/FastAPI. Server Actions serão utilizadas em operações internas e Route Handlers quando endpoints HTTP forem necessários.&#x20;
 
-import (
-    "bytes"
-    "fmt"
-    "io"
-    "net/http"
-)
+src/app/api/ \
+├── produtos/route.ts \
+├── receitas/route.ts \
+├── planejamento/route.ts \
+└── ia/ \
+&#x20;   └── sugestao/route.ts&#x20;
 
-func main() {
-    body := []byte(`{"message":"Hello, world!"}`)
+### &#x20;7. Validação&#x20;
 
-    req, err := http.NewRequest("POST", "https://api.example.com/messages", bytes.NewBuffer(body))
-    if err != nil {
-        panic(err)
-    }
+O Zod será utilizado para validar orçamento, período, quantidade de pessoas, preferências e demais entradas. Valores inválidos, como orçamento negativo, zero pessoas ou período inválido, serão rejeitados antes do processamento.&#x20;
 
-    req.Header.Set("Authorization", "Bearer YOUR_API_KEY")
-    req.Header.Set("Content-Type", "application/json")
+### 8. Banco de Dados&#x20;
 
-    resp, err := http.DefaultClient.Do(req)
-    if err != nil {
-        panic(err)
-    }
-    defer resp.Body.Close()
+PostgreSQL + Supabase + Prisma&#x20;
 
-    responseBody, err := io.ReadAll(resp.Body)
-    if err != nil {
-        panic(err)
-    }
+O PostgreSQL será o banco principal. O Supabase poderá hospedar o banco compartilhado pela equipe, enquanto o Prisma será utilizado como ORM para consultas e relacionamentos tipados.&#x20;
 
-    fmt.Println(string(responseBody))
-}
-```
-{% endcode %}
-{% endtab %}
-{% endtabs %}
-{% endstep %}
+Next.js \
+&#x20;  \| \
+&#x20;  v \
+Prisma ORM \
+&#x20;  \| \
+&#x20;  v \
+PostgreSQL (Supabase)&#x20;
 
-{% step %}
-#### Parse the response
+Entidades iniciais sugeridas: User, Product, Price, Recipe, RecipeIngredient, Planning, PlanningMeal, ShoppingList, ShoppingItem e FoodExpiration.&#x20;
 
-If the request succeeds, you should get a response like this:
+### 9. Regras de Negócio&#x20;
 
-{% code title="response.json" overflow="wrap" %}
-```json
-{
-  "id": "msg_1234567890",
-  "message": "Hello, world!",
-  "status": "queued",
-  "createdAt": "2026-01-01T12:00:00Z"
-}
-```
-{% endcode %}
-{% endstep %}
-{% endstepper %}
-{% endcolumn %}
-{% endcolumns %}
+As regras críticas serão implementadas em TypeScript e não delegadas à IA. O sistema calculará quantidades, embalagens, subtotais, custo total, agrupamento de ingredientes, compatibilidade com o orçamento e ordenação por validade.&#x20;
 
-&#x20;
+Orçamento disponível \
+&#x20;       \| \
+&#x20;       v \
+Receitas selecionadas \
+&#x20;       \| \
+&#x20;       v \
+Ingredientes necessários \
+&#x20;       \| \
+&#x20;       v \
+Agrupamento + preços + embalagens \
+&#x20;       \| \
+&#x20;       v \
+Cálculo do custo total \
+&#x20;       \| \
+&#x20;       v \
+Total <= orçamento? \
+&#x20;  SIM          NÃO \
+&#x20;   \|            | \
+Planejamento   Ajustar opções&#x20;
 
-&#x20;
+src/lib/ \
+├── budget/ \
+│   ├── calculate-budget.ts \
+│   ├── calculate-packages.ts \
+│   └── validate-budget.ts \
+├── planning/ \
+│   ├── generate-planning.ts \
+│   └── group-ingredients.ts \
+└── expiration/ \
+&#x20;   └── sort-by-expiration.ts&#x20;
 
-{% columns %}
-{% column width="50%" %}
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/placeholder.png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
+### 10. Inteligência Artificial&#x20;
 
-{% column width="50%" valign="middle" %}
-## Learn more about the developer platform
+A IA funcionará como camada auxiliar para gerar instruções de preparo, sugerir receitas, aproveitar ingredientes e oferecer alternativas de refeições. Ela não será responsável por cálculos financeiros. A chave da API ficará exclusivamente no servidor.&#x20;
 
-Read guides, watch tutorials, and learn more about working with the developer platform and integrating it with your own stack.
+Dados aprovados pelo sistema \
+&#x20;       \| \
+&#x20;       v \
+Ingredientes disponíveis \
+&#x20;       \| \
+&#x20;       v \
+Backend valida contexto \
+&#x20;       \| \
+&#x20;       v \
+API de IA \
+&#x20;       \| \
+&#x20;       v \
+Resposta validada \
+&#x20;       \| \
+&#x20;       v \
+Exibição ao usuário / fallback de receita-base&#x20;
 
-<a href="https://app.gitbook.com/o/DaDQkGCM7r2TghFSBFLQ/s/rBHPLaxmpwZv1eMYtJSj/" class="button primary" data-icon="book-open">Guides</a> <a href="https://app.gitbook.com/o/DaDQkGCM7r2TghFSBFLQ/s/yE16Xb3IemPxJWydtPOj/" class="button secondary" data-icon="book">Documentation</a>
-{% endcolumn %}
-{% endcolumns %}
+### 11. Estrutura Recomendada do Projeto&#x20;
 
-&#x20;
+comprasfit/ \
+├── prisma/ \
+│   ├── schema.prisma \
+│   └── seed.ts \
+├── public/ \
+├── src/ \
+│   ├── app/ \
+│   │   ├── dashboard/ \
+│   │   ├── planejamento/ \
+│   │   ├── compras/ \
+│   │   ├── refeicoes/ \
+│   │   ├── validade/ \
+│   │   └── api/ \
+│   ├── components/ \
+│   │   ├── ui/ \
+│   │   ├── layout/ \
+│   │   ├── planning/ \
+│   │   ├── shopping/ \
+│   │   └── recipes/ \
+│   ├── lib/ \
+│   │   ├── prisma.ts \
+│   │   ├── ai.ts \
+│   │   ├── budget/ \
+│   │   ├── planning/ \
+│   │   └── expiration/ \
+│   ├── actions/ \
+│   ├── schemas/ \
+│   └── types/ \
+├── tests/ \
+├── .env.example \
+├── package.json \
+├── tsconfig.json \
+└── README.md&#x20;
 
-&#x20;
+### 12. Fluxo Principal da Aplicação&#x20;
 
-<h2 align="center">Join a community of over 3,000 developers</h2>
+Novo planejamento \
+&#x20;      \| \
+&#x20;      v \
+Orçamento + período + preferências \
+&#x20;      \| \
+&#x20;      v \
+Refeições disponíveis \
+&#x20;      \| \
+&#x20;      v \
+Ingredientes necessários \
+&#x20;      \| \
+&#x20;      v \
+Consulta de preços \
+&#x20;      \| \
+&#x20;      v \
+Cálculo do orçamento \
+&#x20;  /              \ \
+Cabe             Não cabe \
+\|                  | \
+v                  v \
+Salvar          Ajustar opções \
+\| \
++--> Refeições \
+\| \
++--> Lista de compras \
+&#x20;       \| \
+&#x20;       v \
+&#x20;  Marcar produtos \
+&#x20;       \| \
+&#x20;       v \
+Registrar validade&#x20;
 
-<p align="center">Join our Discord community or create your first PR in just a few steps.</p>
+### 13. Testes&#x20;
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4><i class="fa-discord">:discord:</i></h4></td><td><strong>Discord community</strong></td><td>Join our Discord community to post questions, get help, and share resources with over 3,000 like-minded developers.</td><td><a href="https://www.gitbook.com/" class="button secondary">Join Discord</a></td><td></td><td><a href="https://www.gitbook.com/">https://www.gitbook.com/</a></td></tr><tr><td><h4><i class="fa-github">:github:</i></h4></td><td><strong>GitHub</strong></td><td>Our product is 100% open source and built by developers just like you. Head to our GitHub repository to learn how to submit your first PR.</td><td><a href="https://github.com/GitbookIO/gitbook-templates" class="button secondary">Submit a PR</a></td><td></td><td><a href="https://www.gitbook.com/">https://www.gitbook.com/</a></td></tr></tbody></table>
+Vitest será utilizado para testar cálculo de orçamento, cálculo de embalagens, agrupamento de ingredientes, subtotais, validação de orçamento, seleção de refeições e datas de validade.&#x20;
 
-&#x20;
+Exemplo: orçamento de R$ 300 e custo de R$ 285 deve produzir um planejamento válido. Orçamento de R$ 300 e custo de R$ 325 deve produzir um planejamento inválido.&#x20;
+
+### 14. Deploy&#x20;
+
+A aplicação Next.js poderá ser publicada na Vercel. O GitHub ficará conectado ao serviço de deploy, permitindo que alterações aprovadas na branch principal gerem novas versões automaticamente. O PostgreSQL permanecerá no Supabase.&#x20;
+
+Desenvolvedor → Git → GitHub → Vercel → ComprasFit online&#x20;
+
+### 15. Desenvolvimento Assistido por IA&#x20;
+
+A arquitetura foi pensada para facilitar o desenvolvimento assistido por ferramentas como Codex. O projeto utilizará TypeScript em praticamente toda a aplicação, frontend e backend no mesmo repositório, componentes reutilizáveis, bibliotecas populares, estrutura previsível, schemas de validação e testes automatizados.&#x20;
+
+* A IA poderá auxiliar na criação de componentes, rotas, schemas, testes, consultas e refatorações.&#x20;
+* As regras críticas permanecerão separadas da interface.&#x20;
+* O código gerado deverá passar por revisão e testes antes de ser incorporado à branch principal.&#x20;
+
+### 16. Git e GitHub&#x20;
+
+Para o MVP, será adotado um fluxo simples de branches, evitando complexidade desnecessária.&#x20;
+
+main \
+├── feature/interface \
+├── feature/database \
+├── feature/planning \
+├── feature/shopping-list \
+└── feature/ai&#x20;
+
+### 17. Documentação no GitBook&#x20;
+
+O GitBook deverá registrar definição do problema, entrevistas, requisitos, arquitetura, stack, banco de dados, protótipos, regras de negócio, decisões técnicas, uso de IA, heurísticas de Nielsen, testes, resultados, limitações e melhorias futuras.&#x20;
+
+### 18. Arquitetura Resumida&#x20;
+
+COMPRASFIT \
+&#x20;   \| \
+&#x20;   v \
+NEXT.JS (React + TypeScript) \
+&#x20;   \| \
+&#x20;   +--> Interface: Tailwind CSS + shadcn/ui \
+&#x20;   \| \
+&#x20;   +--> Backend: Server Actions + Route Handlers \
+&#x20;   \| \
+&#x20;   +--> Regras: TypeScript + Zod \
+&#x20;            \| \
+&#x20;            v \
+&#x20;        Prisma ORM \
+&#x20;            \| \
+&#x20;            v \
+&#x20;    PostgreSQL / Supabase \
+&#x20;            \| \
+&#x20;            +--> Dados \
+&#x20;            \| \
+&#x20;            +--> API de IA (via servidor)&#x20;
+
+### 19. Stack Final Recomendada&#x20;
+
+* Framework: Next.js&#x20;
+* Linguagem: TypeScript&#x20;
+* Frontend: React&#x20;
+* Estilização: Tailwind CSS&#x20;
+* Componentes: shadcn/ui&#x20;
+* Ícones: Lucide React&#x20;
+* Formulários: React Hook Form&#x20;
+* Validação: Zod&#x20;
+* Backend: Next.js Server Actions + Route Handlers&#x20;
+* Banco de dados: PostgreSQL&#x20;
+* Banco em nuvem: Supabase&#x20;
+* ORM: Prisma&#x20;
+* IA: API de LLM acessada pelo servidor&#x20;
+* Testes: Vitest&#x20;
+* Deploy: Vercel&#x20;
+* Versionamento: Git + GitHub&#x20;
+* Documentação: GitBook&#x20;
+
+### 20. Justificativa da Escolha&#x20;
+
+A stack foi escolhida por permitir o desenvolvimento de praticamente toda a aplicação em TypeScript, diminuindo a quantidade de tecnologias que a equipe precisa manter. O Next.js concentra frontend e backend em uma única aplicação; Tailwind CSS e shadcn/ui aceleram a construção da interface; Prisma simplifica a comunicação com o PostgreSQL; e o Supabase disponibiliza um banco remoto compartilhado.&#x20;
+
+A arquitetura favorece o desenvolvimento assistido por IA por utilizar tecnologias populares, amplamente documentadas e uma organização previsível. Ao mesmo tempo, as regras críticas do ComprasFit continuam separadas da interface e da IA, permitindo testes automatizados e validação objetiva dos resultados.&#x20;
+
+A solução foi dimensionada para o MVP acadêmico, evitando complexidade desnecessária e mantendo espaço para evolução futura.
