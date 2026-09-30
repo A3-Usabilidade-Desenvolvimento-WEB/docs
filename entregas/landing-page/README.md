@@ -28,57 +28,147 @@ layout:
 
 ## 🗂️ Kanban de Entregas — Acompanhamento das Entregas
 
-Quadro de acompanhamento das **entregas acadêmicas do trabalho** (Unidade Curricular de Usabilidade e Desenvolvimento Web — A3), organizado por Revisão Técnica (RT). Este quadro é apenas de **gestão do projeto/documentação** e não representa nenhuma funcionalidade do sistema ComprasFit.
+Quadro de acompanhamento das **tarefas do trabalho** (Unidade Curricular de Usabilidade e Desenvolvimento Web — A3), com cada card (`CF-XX`) representando uma atividade da equipe e seu(s) responsável(is). Este quadro é de **gestão do projeto/documentação** — os cards descrevem tarefas de construção do sistema ComprasFit, mas o quadro em si não é uma funcionalidade do sistema.
 
-{% hint style="warning" %}
-**Responsáveis por card:** a equipe do projeto (listada na seção "🏠 Visão Geral > Home") ainda não definiu a divisão individual de tarefas por Revisão Técnica. Os campos "Responsável" abaixo estão marcados como `A definir` até que essa informação seja fornecida pelo grupo.
+{% hint style="info" %}
+Cards identificados por código (`CF-XX`), categoria, descrição e responsável(is), conforme divisão de tarefas definida pela equipe.
 {% endhint %}
 
 {% tabs %}
-{% tab title="📥 Backlog" %}
-**RT04 — Produto Publicado e Deploy**
+{% tab title="📥 Backlog (15)" %}
+**CF-07 · Documentação** — Configurar o espaço do projeto no GitBook\
+Seções: escopo, requisitos, protótipos, decisões técnicas, uso de IA, testes e...\
+Responsável: Roni
 
-* **Descrição:** Software final operável com deploy ativo (Vercel/Netlify) ou APK móvel; comprovação dos 8 princípios de usabilidade validados em testes.
-* **Entrega/Etapa:** RT04
-* **Prazo:** 18/11/2026
-* **Responsável:** _A definir_
-* **Status:** 📥 Backlog
+***
+
+**CF-08 · Pesquisa** — Roteiro e entrevistas exploratórias (5 a 10 pessoas)\
+Lista, estimativa de gastos, retirada de itens no caixa e alimentos não...\
+Responsável: Marco
+
+***
+
+**CF-09 · Pesquisa** — Levantamento de preços em supermercados\
+Registrar estabelecimento, data, unidade de medida e tamanho da embalagem.\
+Responsável: Roni
+
+***
+
+**CF-10 · UX / Protótipo** — Protótipo das telas do fluxo principal\
+Parâmetros → geração da lista → resultado → lista de compras, aplicando...\
+Responsável: Luiza
+
+***
+
+**CF-11 · Backend** — Modelagem do banco SQLite\
+Produtos, preços (com data de atualização), receitas-base, ingredientes...\
+Responsável: Lucas, Filipe, Davi Dilly
+
+***
+
+**CF-12 · Backend** — API FastAPI: parâmetros de planejamento\
+Período, orçamento, preferência de compra e base de preços, com validaçã...\
+Responsável: Lucas, Filipe, Davi Dilly
+
+***
+
+**CF-13 · Backend** — Regras de cálculo de ingredientes e orçamento\
+Seleção de receitas-base, quantidades, subtotais, total e verificação do...\
+Responsável: Lucas, Filipe, Davi Dilly
+
+***
+
+**CF-14 · Frontend** — Tela da lista de compras\
+Preço unitário, subtotal, total estimado, marcar itens comprados e ver refeições...\
+Responsável: Luiza
+
+***
+
+**CF-15 · Frontend** — Aviso de combinação inviável\
+Explicar por que não coube no orçamento e permitir revisar os...\
+Responsável: Luiza
+
+***
+
+**CF-16 · Frontend** — Registro de validade e ordem por vencimento\
+Usuário informa a data da embalagem; itens ordenados pela proximidade do...\
+Responsável: Luiza
+
+***
+
+**CF-17 · IA** — Sugestões culinárias com IA + validação\
+Usar só ingredientes aprovados pelo sistema; resposta incompatível cai nas...\
+Responsável: Erica
+
+***
+
+**CF-18 · Documentação** — Registro do uso de IA\
+Finalidade, alterações feitas e revisão humana, na programação e na redação.\
+Responsável: Roni
+
+***
+
+**CF-19 · Testes** — Testes automatizados das regras de cálculo\
+Meta: toda lista aceita respeita o orçamento na base cadastrada.\
+Responsável: Erica, Vinicius
+
+***
+
+**CF-20 · Testes** — Testes de usabilidade com o público-alvo\
+Meta: pelo menos 4 de 5 participantes concluem o fluxo principal sem ajuda.\
+Responsável: Davi Henrique
+
+***
+
+**CF-21 · Documentação** — Evidências das 8 heurísticas\
+Para cada uma: tela, finalidade e tarefa de teste que demonstra o funcionamento.\
+Responsável: Roni, Yasmin
 {% endtab %}
 
-{% tab title="📝 A Fazer" %}
-**RT03 — Consolidação e Relatório de IA**
+{% tab title="📝 A Fazer (3)" %}
+**CF-04 · Arquitetura** — Elaborar o diagrama de arquitetura\
+Interface HTML/CSS/JS → API FastAPI → SQLite. Incluir módulo de IA com validação e fallback para receitas-base, onde ficam as regras de cálculo.\
+Responsável: Lucas, Luiza
 
-* **Descrição:** Apresentação da versão Alfa/Beta do software, testes de código automatizados e relatório crítico do uso de IA generativa no desenvolvimento.
-* **Entrega/Etapa:** RT03
-* **Prazo:** 28/10/2026
-* **Responsável:** _A definir_
-* **Status:** 📝 A Fazer
+***
+
+**CF-05 · Gestão** — Criar o repositório no GitHub\
+README, pastas /frontend, /backend e /docs, .gitignore, branch main protegida e convite a todos os membros.\
+Responsável: Roni
+
+***
+
+**CF-06 · Gestão** — Definir papéis da equipe (Scrum/Kanban simples)\
+Preencher os papéis abaixo, combinar a reunião semanal e registrar tudo no GitBook.\
+Responsável: Yasmin
 {% endtab %}
 
-{% tab title="🔧 Em Andamento" %}
-**RT02 — Requisitos e Prototipagem**
-
-* **Descrição:** Documentação de requisitos funcionais/não funcionais, diagrama de arquitetura do sistema e protótipo inicial de interface de 5 telas.
-* **Entrega/Etapa:** RT02
-* **Prazo:** 30/09/2026
-* **Responsável:** _A definir_
-* **Status:** 🔧 Em Andamento
+{% tab title="🔧 Em Andamento (0)" %}
+_Nenhum card em andamento no momento._
 {% endtab %}
 
-{% tab title="👀 Em Revisão" %}
-_Nenhuma entrega em revisão no momento._
+{% tab title="👀 Em Revisão (0)" %}
+_Nenhum card em revisão no momento._
 
-Quando uma entrega for concluída e estiver aguardando validação do professor orientador ou do grupo, mova o card correspondente para esta coluna.
+Quando um card for concluído e estiver aguardando validação do professor orientador ou do grupo, mova-o para esta coluna.
 {% endtab %}
 
-{% tab title="✅ Concluído" %}
-**RT01 — Alinhamento de Ideia e Escopo**
+{% tab title="✅ Concluído (3)" %}
+**CF-01 · Documentação** — Proposta do projeto ComprasFit\
+Problema, público-alvo, solução, uso de IA, arquitetura preliminar e critérios de...\
+Responsável: Lucas, Roni
 
-* **Descrição:** Identificação detalhada do problema, Lean Canvas inicial e proposta arquitetural.
-* **Entrega/Etapa:** RT01
-* **Prazo:** 09/09/2026
-* **Responsável:** _A definir_
-* **Status:** ✅ Concluído
+***
+
+**CF-02 · UX / Protótipo** — Seleção das 8 heurísticas de Nielsen\
+Princípios definidos como base teórica da interface (NIELSEN, 1994, rev. 2024).\
+Responsável: Lucas, Roni
+
+***
+
+**CF-03 · Pesquisa** — Análise de referência de mercado (Listonic)\
+Categorias e compartilhamento de listas como exemplos para a prototipação.\
+Responsável: Lucas, Roni
 {% endtab %}
 {% endtabs %}
 
