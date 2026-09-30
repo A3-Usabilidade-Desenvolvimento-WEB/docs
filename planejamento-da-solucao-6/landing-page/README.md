@@ -34,6 +34,14 @@ layout:
 
 O ComprasFit será desenvolvido como uma aplicação web full-stack responsiva, utilizando Next.js e TypeScript como tecnologias principais. A proposta prioriza uma arquitetura simples, moderna e adequada ao desenvolvimento assistido por IA, mantendo frontend, backend e regras de negócio em um único projeto.&#x20;
 
+### Diagrama de Arquitetura
+
+<figure><img src=".gitbook/assets/ChatGPT Image 29_09_2026, 23_34_31.png" alt=""><figcaption></figcaption></figure>
+
+### Driagrama de Fluxo (MIRO)
+
+[https://miro.com/app/board/uXjVHXEPvYU=/?share\_link\_id=552216435426](https://miro.com/app/board/uXjVHXEPvYU=/?share_link_id=552216435426)
+
 ### 1. Visão Geral da Arquitetura&#x20;
 
 A escolha de uma arquitetura full-stack em Next.js reduz a quantidade de tecnologias diferentes que a equipe precisa manter e facilita o desenvolvimento colaborativo. A interface, as APIs e as regras de negócio ficam no mesmo repositório, enquanto o banco de dados e o serviço de inteligência artificial são acessados pelo servidor.&#x20;
