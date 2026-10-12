@@ -18,6 +18,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: false
 ---
 
 # 🏠 Bem-vindo ao ComprasFit
@@ -30,21 +32,15 @@ layout:
 
 #### 🌟 1. A Ideia Inicial do Projeto
 
-O ComprasFit nasceu para solucionar um problema enfrentado diariamente por estudantes, atletas amadores e pessoas que moram sozinhas: planejar a alimentação balanceada sem estourar o orçamento e sem desperdiçar comida.
+O **ComprasFit** é uma plataforma de planejamento alimentar e financeiro desenvolvida para ajudar jovens adultos a realizarem compras mais inteligentes, saudáveis e econômicas.
 
-Hoje, esse processo é altamente analógico (com 46,86% dos consumidores ainda utilizando papel e caneta para planejar compras). Como consequência direta da falta de planejamento sistemático, as famílias estouram o caixa com frequência e itens perecíveis estragam rapidamente na despensa.
+A solução foi concebida para atender principalmente estudantes universitários, jovens profissionais, pessoas que moram sozinhas e casais em início de vida financeira que enfrentam o desafio diário de equilibrar alimentação adequada, orçamento limitado e organização da rotina doméstica.
 
-Como o ComprasFit resolve isso?Nossa proposta de desenvolvimento foca em uma experiência fluida baseada em 4 entradas simples do usuário:
+O problema é especialmente relevante no contexto brasileiro. Segundo o Instituto Brasileiro de Geografia e Estatística [(IBGE)](https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/39838-seguranca-alimentar-nos-domicilios-brasileiros-volta-a-crescer-em-2023), **27,6% dos domicílios brasileiros apresentavam algum grau de insegurança alimentar em 2023**, evidenciando que uma parcela significativa da população enfrenta dificuldades para manter acesso regular à alimentação adequada.
 
-1. Supermercado de preferência (para mapear a variação regional de preços).
-2. Período desejado (quantidade de dias que a compra deve cobrir).
-3. Orçamento disponível (o teto financeiro rígido).
-4. Foco/Objetivo nutricional (escolhendo entre os perfis _Bulking_, _Cutting_, _Alimentação Essencial_ ou _Gastar Pouco_).
+Ao mesmo tempo, o desperdício doméstico continua sendo um dos principais desafios relacionados ao consumo de alimentos. Pesquisa conduzida pela [Embrapa ](https://www.embrapa.br/busca-de-noticias/-/noticia/40838625/embrapa-disponibiliza-dados-expandidos-de-pesquisa-sobre-desperdicio-de-alimentos-em-familias)em parceria com a Fundação Getulio Vargas (FGV-EAESP) identificou que as famílias brasileiras desperdiçam, em média, **128 kg de alimentos por ano**, resultado frequentemente associado à falta de planejamento das compras, armazenamento inadequado e preparo excessivo de refeições.
 
-Com essas informações, nosso sistema utiliza um modelo híbrido de tecnologia:
-
-* 🧠 Motor de Regras Determinístico (Matemático): Resolve o clássico "problema da mochila" (_knapsack_) para selecionar os melhores itens e quantidades que caibam perfeitamente no bolso do usuário.
-* 🤖 Inteligência Artificial Generativa: Recebe os ingredientes otimizados e constrói de forma criativa um cardápio em linguagem natural adaptado para o período, indicando o que cozinhar e organizando os pratos para evitar o desperdício de itens com menor prazo de conservação.
+Nesse cenário, o ComprasFit surge como uma ferramenta capaz de transformar decisões de compra normalmente baseadas em tentativa e erro em decisões orientadas por dados, planejamento financeiro e objetivos nutricionais.
 
 &#x20;
 
@@ -86,7 +82,8 @@ Luiza Da Silva Gonçalves;\
 Yasmin Teles Vales;\
 Ronie Soares Azevedo;\
 Lucas Henrique Louzada;\
-Davi Henrique Mota Silva
+Davi Henrique Mota Silva;\
+Marco Antônio Marques.
 
 
 
