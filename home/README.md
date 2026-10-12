@@ -7,11 +7,11 @@ layout:
   description:
     visible: true
   tableOfContents:
-    visible: false
+    visible: true
   outline:
-    visible: false
+    visible: true
   pagination:
-    visible: false
+    visible: true
   metadata:
     visible: false
   tags:
@@ -19,7 +19,7 @@ layout:
   actions:
     visible: true
   anchors:
-    visible: false
+    visible: true
 ---
 
 # 🏠 Bem-vindo ao ComprasFit
