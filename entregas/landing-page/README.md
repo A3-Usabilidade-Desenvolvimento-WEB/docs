@@ -24,8 +24,6 @@ layout:
 
 # Planejamento de Entregas A3
 
-&#x20;
-
 ## 🗂️ Kanban de Entregas — Acompanhamento das Entregas
 
 Quadro de acompanhamento das **tarefas do trabalho** (Unidade Curricular de Usabilidade e Desenvolvimento Web — A3), com cada card (`CF-XX`) representando uma atividade da equipe e seu(s) responsável(is). Este quadro é de **gestão do projeto/documentação** — os cards descrevem tarefas de construção do sistema ComprasFit, mas o quadro em si não é uma funcionalidade do sistema.
@@ -172,39 +170,23 @@ Responsável: Lucas, Roni
 {% endtab %}
 {% endtabs %}
 
-&#x20;
-
 ### Legenda de status
 
-| Status | Significado |
-|---|---|
-| 📥 Backlog | Entrega planejada, ainda sem trabalho iniciado |
-| 📝 A Fazer | Priorizada para o próximo ciclo |
-| 🔧 Em Andamento | Em desenvolvimento pela equipe |
-| 👀 Em Revisão | Concluída pela equipe, aguardando validação |
-| ✅ Concluído | Entregue e validada |
+| Status          | Significado                                    |
+| --------------- | ---------------------------------------------- |
+| 📥 Backlog      | Entrega planejada, ainda sem trabalho iniciado |
+| 📝 A Fazer      | Priorizada para o próximo ciclo                |
+| 🔧 Em Andamento | Em desenvolvimento pela equipe                 |
+| 👀 Em Revisão   | Concluída pela equipe, aguardando validação    |
+| ✅ Concluído     | Entregue e validada                            |
 
-&#x20;
+## Registro Visual do Protótipo de Referência
 
-## &#x20;Registro Visual do Protótipo de Referência
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" icon="globe-www" %}
-[https://claude.ai/artifact/TjC6sNDoErdu8fzMQKBvxZ](https://claude.ai/artifact/TjC6sNDoErdu8fzMQKBvxZ)&#x20;
-{% endhint %}
+{% embed url="https://github.com/orgs/A3-Usabilidade-Desenvolvimento-WEB/projects/2/views/4" %}
 
-&#x20;
-
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
-
-### REPOSITÓRIOS&#x20;
+### REPOSITÓRIOS
 
 Back: [https://github.com/A3-Usabilidade-Desenvolvimento-WEB/backend-ComprasFit](https://github.com/A3-Usabilidade-Desenvolvimento-WEB/backend-ComprasFit)
 
