@@ -182,7 +182,7 @@ Responsável: Lucas, Roni
 
 ## Registro Visual do Protótipo de Referência
 
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Captura111r.PNG" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://github.com/orgs/A3-Usabilidade-Desenvolvimento-WEB/projects/2/views/4" %}
 
