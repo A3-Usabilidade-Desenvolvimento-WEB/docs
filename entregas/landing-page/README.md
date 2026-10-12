@@ -191,3 +191,5 @@ Responsável: Lucas, Roni
 Back: [https://github.com/A3-Usabilidade-Desenvolvimento-WEB/backend-ComprasFit](https://github.com/A3-Usabilidade-Desenvolvimento-WEB/backend-ComprasFit)
 
 Front: [https://github.com/A3-Usabilidade-Desenvolvimento-WEB/frontend-ComprasFit](https://github.com/A3-Usabilidade-Desenvolvimento-WEB/frontend-ComprasFit)
+
+
