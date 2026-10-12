@@ -8,13 +8,24 @@ O planejamento alimentar e a gestão financeira doméstica caminham lado a lado,
 
 Atualmente, o processo de planejar o que comer e o que comprar é fragmentado, analógico e cheio de fricção:
 
-1. **Desconexão entre Compra e Consumo:** O consumidor costuma ir ao supermercado sem saber exatamente o que cozinhar ou quais nutrientes precisa adquirir (sobra comida e falta proteína, por exemplo). O erro clássico consiste em "comprar por impulso e depois tentar inventar uma receita com o que restou".
-2. **Falta de Previsibilidade Orçamentária:** A pessoa não tem clareza de quanto custará a sua cesta de compras antes de passar os produtos no leitor do supermercado, tornando o estouro de orçamento um evento frequente e indesejado.
-3. **Flutuação Regional de Preços:** Os preços de itens idênticos oscilam de 30% a 50% entre redes varejistas na mesma localidade. Como os consumidores não têm tempo para pesquisar manualmente e comparar os encartes, acabam comprando às cegas.
-4. **Desperdício de Alimentos e Dinheiro:** Itens perecíveis de alto custo (como carnes e vegetais) estragam na geladeira por falta de um cronograma sequencial de consumo voltado para o prazo de validade.
-5. **Complexidade Nutricional:** Montar uma estratégia de alimentação específica (como _Bulking_ para ganho de massa ou _Cutting_ para perda de gordura) exige cálculos de macronutrientes complexos que a maioria das pessoas não sabe realizar de forma autônoma dentro de suas restrições orçamentárias]
+1.  **Desconexão entre Compra e Consumo:** O consumidor frequentemente realiza compras sem um planejamento estruturado das refeições que serão preparadas ao longo da semana. Como consequência, é comum adquirir quantidades inadequadas de alimentos, resultando simultaneamente em falta de nutrientes essenciais para determinadas refeições e excesso de produtos que acabam não sendo consumidos.<br>
 
+    Pesquisas conduzidas pela [Embrapa](https://www.embrapa.br/noticias-mais-lidas/-/asset_publisher/HA73uEmvroGS/content/id/40838634#40838634) e pela FGV-EAESP apontam que parte significativa do desperdício alimentar doméstico está associada a falhas de planejamento e ao preparo excessivo de refeições, demonstrando uma desconexão entre o que é comprado e o que efetivamente será consumido.
+2.  **Falta de Previsibilidade Orçamentária:** Grande parte dos consumidores somente conhece o valor total da compra ao chegar ao caixa do supermercado. Essa ausência de previsibilidade dificulta a gestão financeira do orçamento doméstico e contribui para compras acima do valor inicialmente planejado.<br>
 
+    A importância do planejamento financeiro relacionado à alimentação é evidenciada pelos dados da [PNAD](https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/39838-seguranca-alimentar-nos-domicilios-brasileiros-volta-a-crescer-em-2023) Contínua, segundo os quais **27,6% dos domicílios brasileiros conviviam com algum grau de insegurança alimentar em 2023**, tornando a eficiência na alocação dos recursos destinados à alimentação uma necessidade econômica para milhões de famílias.&#x20;
+3.  **Desperdício de Alimentos e Recursos Financeiros:** O desperdício de alimentos representa não apenas um problema ambiental, mas também uma perda direta de poder de compra das famílias.
+
+    Levantamento realizado pela [Embrapa](https://www.embrapa.br/noticias-mais-lidas/-/asset_publisher/HA73uEmvroGS/content/id/40838634) em parceria com a FGV-EAESP identificou que famílias brasileiras desperdiçam, em média, **128 kg de alimentos por ano**. O estudo também conclui que consumidores que percebem o impacto financeiro do desperdício tendem a desenvolver hábitos de compra mais eficientes.<br>
+
+    Além disso, pesquisa da [FGV](https://portal.fgv.br/noticias/arroz-feijao-e-carne-sao-alimentos-mais-desperdicados-pelos-brasileiros-aponta-pesquisa) mostrou que os alimentos mais desperdiçados nos lares brasileiros incluem itens de alto valor nutricional e financeiro. As proteínas representam aproximadamente **40% do desperdício alimentar doméstico**, enquanto arroz e feijão correspondem a **22% e 16%**, respectivamente
+4.  **Falhas no Planejamento Doméstico:** studos brasileiros sobre desperdício alimentar indicam que o problema não está apenas na compra dos alimentos, mas também na ausência de planejamento de consumo, armazenamento inadequado e dificuldade de organizar refeições ao longo da semana.
+
+    A própria pesquisa da [Embrapa ](https://www.acrissul.com.br/noticias/embrapa-disponibiliza-pesquisa-sobre-desperdicio-de-alimentos-em-familias/14216/)destaca que consumidores com maior consciência sobre orçamento doméstico e impacto financeiro do desperdício apresentam menor propensão ao descarte de alimentos, evidenciando a importância de ferramentas de apoio à decisão.\
+    &#x20;
+5.  **Complexidade Nutricional e Limitações de Tempo:** Montar uma alimentação equilibrada exige considerar simultaneamente restrições financeiras, quantidade de alimentos, necessidades nutricionais e frequência de consumo. Para usuários que possuem objetivos específicos, como ganho de massa muscular, definição corporal ou controle de peso, essa tarefa se torna ainda mais complexa.<br>
+
+    Na prática, a maioria dos consumidores não possui conhecimento técnico suficiente para transformar um orçamento limitado em uma cesta de compras nutricionalmente adequada. Isso cria um cenário em que decisões alimentares acabam sendo guiadas prioritariamente pelo preço imediato dos produtos, e não por critérios de custo-benefício nutricional.
 
 #### 📊 Evidências do Problema: Dados e Pesquisas de Mercado
 
@@ -33,6 +44,8 @@ Sensibilidade ao Preço e Insegurança Alimentar
 * **A Pressão Econômica:** Pesquisas de comportamento mostram que o preço influencia diretamente 66% das decisões de compra do consumidor brasileiro, e que 90% dos indivíduos buscam ativamente opções mais baratas antes de ir às compras, segundo dados divulgados no portal [Consumidor Moderno / Opinion Box](https://www.google.com/url?sa=E\&q=https%3A%2F%2Fconsumidormoderno.com.br%2Fconsumidor-brasileiro-supermercado%2F).
 * **Insegurança Alimentar:** Esse planejamento orçamentário rígido se torna crítico ao observarmos que a PNAD Contínua (divulgada pelo [IBGE](https://www.google.com/url?sa=E\&q=https%3A%2F%2Fwww.ibge.gov.br%2F) em 2025) apontou que 24,2% dos domicílios brasileiros apresentavam algum grau de insegurança alimentar em 2024. Otimizar as compras não é apenas um estilo de vida, é uma urgência socioeconômica.
 
-***
 
-<figure><img src=".gitbook/assets/Designer.png" alt=""><figcaption></figcaption></figure>
+
+#### 📋 Resumo
+
+Os dados apresentados evidenciam que o problema não está apenas na compra de alimentos, mas na ausência de uma ferramenta capaz de integrar orçamento, planejamento alimentar, metas nutricionais e prevenção do desperdício em uma única experiência. Essa lacuna cria uma oportunidade para soluções digitais que auxiliem o consumidor na tomada de decisão antes mesmo de chegar ao supermercado, reduzindo desperdícios, aumentando a previsibilidade dos gastos e promovendo uma alimentação mais adequada à realidade financeira de cada usuário.
