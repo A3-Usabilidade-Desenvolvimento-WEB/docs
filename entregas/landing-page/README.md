@@ -170,6 +170,8 @@ Responsável: Lucas, Roni
 {% endtab %}
 {% endtabs %}
 
+{% embed url="https://docs.google.com/spreadsheets/d/1PI0eaULQAO2p6-kSIhqCTdMcMH6W_pfb/edit?ouid=106644022898700185550&rtpof=true&sd=true&usp=sharing" %}
+
 ### Legenda de status
 
 | Status          | Significado                                    |
@@ -180,16 +182,8 @@ Responsável: Lucas, Roni
 | 👀 Em Revisão   | Concluída pela equipe, aguardando validação    |
 | ✅ Concluído     | Entregue e validada                            |
 
-## Registro Visual do Protótipo de Referência
-
-<figure><img src=".gitbook/assets/Captura111r.PNG" alt=""><figcaption></figcaption></figure>
-
-{% embed url="https://github.com/orgs/A3-Usabilidade-Desenvolvimento-WEB/projects/2/views/4" %}
-
 ### REPOSITÓRIOS
 
 Back: [https://github.com/A3-Usabilidade-Desenvolvimento-WEB/backend-ComprasFit](https://github.com/A3-Usabilidade-Desenvolvimento-WEB/backend-ComprasFit)
 
 Front: [https://github.com/A3-Usabilidade-Desenvolvimento-WEB/frontend-ComprasFit](https://github.com/A3-Usabilidade-Desenvolvimento-WEB/frontend-ComprasFit)
-
-
